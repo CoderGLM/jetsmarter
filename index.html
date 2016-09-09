@@ -1,0 +1,366 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width,user-scalable=0">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <title>DEERJET Web Portal Demo</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <style>
+        .video-bg {
+            position:absolute;
+            top:0;
+            left:0;
+            z-index:-1;
+        }
+        .video-bg video{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: auto;
+            -webkit-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+        }
+        @media (max-aspect-ratio:16/9) {
+	        .video-bg video {
+		        height: 101%;
+		        width: auto
+	        }
+        }
+    </style>
+</head>
+<body>
+    <div class="fixedNav">
+        <div class="fixedNav_nav">
+            <div class="fixedNav_brand">
+                <img src="images/home_logo.png" style="height:100%;" />
+            </div>
+            <div class="fixedNav_menu">
+                <a href="#" class="btn_nav_menu"><img src="images/home_page_nav.png" style="height:90%;" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="nav_menu">
+        <button class="special"><span>HOME</span></button>
+        <button>LATEST NEWS</button>
+        <button>ABOUT DEERJET</button>
+        <button>CONTACT</button>
+    </div>
+    <div class="wrapBox">
+        <div class="box">
+            <div class="pagecontainer">
+                <div class="silde-show video-bg">
+                    <video preload="none" loop poster="images/page_bg1 .png">
+                        <source src="video/jetsmarter.mp4">
+                        <!--[if LT IE 9]>
+            <object type="application/x-shockwave-flash" data="video/flashfox.swf" width="100%" height="100%">
+                <param name="movie" value="video/flashfox.swf">
+                <param name="allowFullScreen" value="true">
+                <param name="wmode" value="transparent">
+                <param name="flashVars" value="autoplay=true&controls=false&loop=true&poster=images/home_bg.jpg&src=video/amazonaws.mp4">
+            </object>
+            <![endif]-->
+                    </video>
+                </div>
+                <div class="subcontainer">
+                    <div class="midContent">
+                        <div class="midWrap">
+                            <div class="midSubwrap">
+                                <div class="home_page1_01_1">
+                                    <div class="content-wrap">
+                                        <h1>
+                                            Anytime Anywhere<br />
+                                            <small class="mg_top20">
+                                                As the world’s leading<br />
+                                                suppller of Airbus jets and jet<br />
+                                                area in Asia Pacific leader deer jet<br />
+                                                will create anew situation in the field of domestic jet.
+                                            </small>
+                                        </h1>
+                                        <button class="home_button mg_top20">
+                                            <span>CUSTOMER LOGIN</span>
+                                        </button>
+                                        <div id="divInfo">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subcontainer" style="left:50%;bottom:32px;width:30px;height:58px;">
+                    <a href="#" class="btn_next_page"><img src="/images/home_page_next_btn.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer">
+                <div class="home_page2_01_1">
+                    <div class="content-wrap">
+                        <div class="fl_r cont-warp40">
+                            <div class="midContent">
+                                <div class="midWrap">
+                                    <div class="midSubwrap">
+                                        <h2>Product & Promotion</h2>
+                                        <div class="tit_line25"></div>
+                                        <p class="mg_top20">
+                                            We are always ready to enjoy a perfect journey together with you.
+                                            For the past 21 years, Deer Jet has safely arrived at more than 740 airports
+                                            in over 170 countries and regions, with the total flight time of about 80,000 hours.
+                                            Tell us your flight requirements and let us add wings for your dreams.
+                                        </p>
+
+                                        <button class="home_button mg_top20">
+                                            <span>MORE INFORMATION</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer home_page3_01_1">
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer home_page4">
+                <div class="home_page4_02_1">
+                    <div class="content-wrap">
+                        <div class="fl_r cont-warp40">
+                            <div class="midContent">
+                                <div class="midWrap">
+                                    <div class="midSubwrap">
+                                        <h2>Latest News</h2>
+                                        <div class="tit_line25"></div>
+                                        <p class="mg_top20"><a href="#">Private jet enthusiasts, here comes your air show...    2016-03</a></p>
+                                        <p>
+                                            <a href="#">APP “Deer Jet Travel” Launched – An Innovation ...   2016-01-26</a>
+                                        </p>
+                                        <p>
+                                            <a href="#">Deer Jet Hiring Taiwan Flight Attendants.   2015-12-22</a>
+                                        </p>
+                                        <p>
+                                            <a href="#">Dialogue with the World Business Aviation | Deer ...   2015-11-20</a>
+                                        </p>
+                                        <p>
+                                            <a href="#">Private jet enthusiasts, here comes your air show...    2016-03-28</a>
+                                        </p>
+                                        <button class="home_button mg_top20">
+                                            <span>MORE INFORMATION</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer home_page5">
+                <div class="home_page5_02_1">
+                    <div class="content-wrap">
+                        <div class="cont-warp50">
+                            <div class="midContent">
+                                <div class="midWrap">
+                                    <div class="midSubwrap">
+                                        <h2>Charter</h2>
+                                        <div class="tit_line15"></div>
+                                        <p class="mg_top20">
+                                            We are always ready to enjoy a perfect journey together with you.<br />
+                                            For the past 21 years, Deer Jet has safely arrived at more than 740 airports in over <br />
+                                            170 countries and regions, with the total flight time of about 80,000 hours. <br />
+                                            Tell us your flight requirements and let us add wings for your dreams.
+                                        </p>
+                                        <button class="home_button mg_top20">
+                                            <span>TRAVEL PLAN</span>
+                                            <div style="width:100%;"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer">
+                <div class="home_page6_01_1">
+                    <div class="fl_r cont-warp55">
+                        <div class="midContent">
+                            <div class="midWrap">
+                                <div class="midSubwrap">
+                                    <div class="home_page6_01_tit">
+                                        <div class="content-wrap fl_r page6_content">
+                                            <h1>
+                                                Aircraft Management<br />
+                                                <small style="color:#ffffff;" class="mg_top20">
+                                                    Enjoy elegance, show yourself.<br />
+                                                    You are going to have exclusive right to use <br />
+                                                    the aircraft and Deer Jet will present you a beautiful <br />
+                                                    date of time and space.
+                                                </small>
+                                            </h1>
+                                            <button class="home_button mg_top20">
+                                                <span>Travel Plan</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer">
+                <div class="home_page7_01_1">
+                    <div class="content-wrap">
+                        <div class="cont-warp50">
+                            <div class="midContent">
+                                <div class="midWrap">
+                                    <div class="midSubwrap">
+                                        <h2>Block Charter</h2>
+                                        <div class="tit_line15"></div>
+                                        <p class="mg_top20">
+                                            Enjoy elegance, show yourself.<br />
+                                            You are going to have exclusive right to use <br />
+                                            the aircraft and Deer Jet will present you a beautiful <br />
+                                            date of time and space.
+                                        </p>
+                                        <button class="home_button mg_top20">
+                                            <span>MORE INFORMATION</span>
+                                            <div style="width:100%;"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer">
+                <div class="home_page8_01_1 content-wrap">
+                    <div class="content-wrap">
+                        <div class="fl_r cont-warp40">
+                            <div class="midContent">
+                                <div class="midWrap">
+                                    <div class="midSubwrap">
+                                        <h2>Card Products</h2>
+                                        <div class="tit_line25"></div>
+                                        <p class="mg_top20" style="line-height:2.5em;">
+                                            金鹿小时卡<br />
+                                            金　额：<br />
+                                            更多远低于市场价的惊喜价格<br />
+                                            小时数：<br />
+                                            10小时、25小时、50小时多卡种，满足不同需求
+                                        </p>
+                                        <button class="home_button mg_top20">
+                                            <span>MORE INFORMATION</span>
+                                            <div style="width:100%;"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pagecontainer">
+                <div class="subcontainer home_page9">
+                    <div class="content-wrap">
+                        <div class="home_page9_01_1 fl_l">
+                            <div class="midContent">
+                                <div class="midWrap">
+                                    <div class="midSubwrap">
+                                        <h2>Ferry Flight Sell</h2>
+                                        <div style="color:#808080;">
+                                            <p>Preferential Charter</p>
+                                            <div class="tit_line15"></div>
+                                            <ul class="mg_top30">
+                                                <li>
+                                                    Product introduction: Customers can arrange the flight according to the
+                                                    confirmed segment of ferry flight of Deer Jet to experience the charter service at a low price.
+                                                </li>
+                                                <li>Target group: Customers who want to experience the business jet at a low price.</li>
+                                                <li>Applicable aircraft type: Applicable to all aircraft types.</li>
+                                            </ul>
+                                        </div>
+                                        <div style="margin-top:20px;">
+                                            <p style="color:#69308e">For more details, please contact:</p>
+                                            <p style="color:#808080;">24-hour service hotline:4000-666-888</p>
+                                            <p style="color:#69308e">E-mail:deerjet@hnair.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home_page9_02_1 fl_r">
+                            <div style="margin-top:15%;margin-left:10px;">
+                                <img src="/images/home_page_9_01.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fix_nav">
+        <div class="current"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/classie.js"></script>
+
+    <!--<script>
+        var count = 0;
+        var $video = $('video'),
+            $window = $(window);
+        $(window).resize(function () {
+            //var height = $window.height();
+            //$video.css('height', height);
+
+            var videoWidth = $video.width(),
+                windowWidth = $window.width();
+            var marginLeftAdjust = (windowWidth - videoWidth) / 2;
+
+            if (marginLeftAdjust > 0) {
+                $video.css({
+                    'height': 'auto',
+                    'width': '100%'
+                });
+            } else {
+                $video.css({
+                    'width': "auto",
+                    'height': '100%'
+                });
+            }
+            count++;
+            $("#divInfo").text(count + "___" + marginLeftAdjust);
+        }).resize();
+    </script>-->
+</body>
+</html>
